@@ -1,7 +1,7 @@
 # Личный проект «TaskForce»
 
 * Студент: [Анатолий Рыжков](https://up.htmlacademy.ru/nodejs-2/3/user/1917961).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Железцов](https://htmlacademy.ru/profile/sench).
 
 ---
 
