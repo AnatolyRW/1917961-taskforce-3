@@ -1,0 +1,31 @@
+# Create a new user
+POST http://localhost:3333/api/authentication/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "anatoly",
+  "email": "user1@notfound.local",
+  "city": "Fedorovka",
+  "password": "123456",
+  "role": "customer",
+  "avatar": "/avatar.jpg",
+  "dateBirth": "2012-02-22"
+}
+
+###
+
+# Get user by ID
+GET http://localhost:3333/api/authentication/e82bfaa5-84d7-4074-8796-aa720dd2ff61 HTTP/1.1
+
+###
+
+# Login user by email and password
+POST http://localhost:3333/api/authentication/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "user@notfound.local",
+  "password": "123456"
+}
+
+###
